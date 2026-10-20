@@ -1,6 +1,6 @@
 {
   "name": "multi-model",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Orquesta varios modelos a la vez: Sonnet lee código, planifica y documenta; Opus diseña y desarrolla frontend y backend; Haiku ejecuta comandos básicos y gestiona git.",
   "author": {
     "name": "ChemaSanchez11"

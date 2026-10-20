@@ -12,7 +12,7 @@
       "name": "multi-model",
       "source": "./plugins/multi-model",
       "description": "Equipo de subagentes que reparte el trabajo entre Sonnet, Opus y Haiku según el tipo de tarea, y los ejecuta en paralelo.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "keywords": ["multi-model", "agents", "sonnet", "opus", "haiku", "orchestration"]
     }
