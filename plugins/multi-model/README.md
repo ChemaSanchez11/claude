@@ -110,6 +110,16 @@ Reduce el **coste**, pero no necesariamente el **número de tokens**. Conviene e
 4. **Da rutas concretas.** Si le dices al orquestador qué archivos tocar, o el `planner` devuelve rutas `archivo:línea`, los desarrolladores van directos sin volver a explorar el repo con Opus.
 5. **Divide tareas enormes** en varias peticiones: el contexto de cada agente se mantiene pequeño.
 
+### ¿Cuándo usarlo? (recomendación para el plan Pro)
+
+En el plan Pro el límite es el límite de uso, y Opus lo consume bastante más rápido que Sonnet o Haiku. Si sueles quedarte sin límite trabajando todo en Opus, este plugin te da más margen; si nunca llegas al límite, la sesión entera en Opus es más simple y tiene la máxima calidad.
+
+* **Proyecto grande o app entera:** `/model sonnet` y `/multi-model:equipo`, usando `--eco` en las partes sencillas.
+* **Arreglos y cambios pequeños del día a día:** una sesión normal en Sonnet, sin plugin. Es lo más barato y para eso va sobrado.
+* **Un problema difícil concreto** (un error rebuscado o una decisión de arquitectura): una sesión en Opus directamente.
+
+Compara con `/usage` cuánto margen te queda trabajando de una forma y de otra.
+
 ## Personalización
 
 - Cambia el modelo de un agente editando su frontmatter: `model: sonnet | opus | haiku | inherit` o un ID completo de modelo.
